@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ site.data.site.logo_url }}" alt="PyBaMM logo" class="brand-logo" />
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      {% for item in site.data.site.nav %}
+        {% assign current = '' %}
+        {% if page.url == item.url %}{% assign current = 'is-current' %}{% endif %}
+        <a class="nav-link {{ current }}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+  {% if page.url == '/' %}
+  <div class="header-banner">
+    <div class="container header-banner-inner">
+      <a class="button button-soft" href="{{ site.data.site.programme_url }}">Download the full programme</a>
+      <a class="button button-soft" href="{{ site.data.site.abstracts_pdf_url }}">Download the abstracts</a>
+    </div>
+  </div>
+  {% endif %}
+</header>

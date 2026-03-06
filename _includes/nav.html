@@ -1,0 +1,17 @@
+<div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav w-nav">
+  <div class="global-padding">
+    <div class="nav_container">
+      <a href="{{ '/' | relative_url }}" class="nav_logo w-nav-brand"><img src="{{ site.data.site.logo_url }}" loading="lazy" width="133" alt="logo"/></a>
+      <nav role="navigation" class="nav_menu w-nav-menu">
+        {% for item in site.data.site.nav %}
+          {% assign active = '' %}
+          {% if page.url == item.url %}
+            {% assign active = ' w--current' %}
+          {% endif %}
+          <a href="{{ item.url | relative_url }}"{% if active != '' %} aria-current="page"{% endif %} class="nav_link w-nav-link{{ active }}">{{ item.title }}</a>{% unless forloop.last %}<div class="nav_divider"></div>{% endunless %}
+        {% endfor %}
+      </nav>
+      <div class="nav_button w-nav-button"><div class="w-icon-nav-menu"></div></div>
+    </div>
+  </div>
+</div>
