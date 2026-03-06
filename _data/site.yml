@@ -10,16 +10,16 @@ nav:
     url: /
   - title: About
     url: /about/
-  - title: Speakers
-    url: /speakers/
-  - title: Abstracts
-    url: /abstracts/
+  # - title: Speakers
+  #   url: /speakers/
+  # - title: Abstracts
+  #   url: /abstracts/
   - title: Venue
     url: /venue/
   - title: Registration
     url: /registration/
-  - title: Training
-    url: /training/
+  # - title: Training
+  #   url: /training/
 hero_images:
   - https://cdn.prod.website-files.com/667303565fdbef00f25296e9/6674b57368d114840a35f3a3_PyBamm3.avif
   - https://cdn.prod.website-files.com/667303565fdbef00f25296e9/6674b574cfebb0222cf13d9e_PyBamm1.avif

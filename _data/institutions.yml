@@ -1,8 +1,12 @@
-- name: Imperial College London
-  logo: https://cdn.prod.website-files.com/66c5a8c6efeae2125090a5a5/66e1c14dd033c0ffab3b7f39_Imperial_College_London_new_logo.png
+- name: MICDE
+  logo: assets/img/MICDE.svg
+  url: https://micde.umich.edu/
+- name: MIDAS
+  logo: assets/img/midas.png
+  url: https://midas.umich.edu/
 - name: NumFOCUS
-  logo: https://cdn.prod.website-files.com/66c5a8c6efeae2125090a5a5/66cd4128a8b359b574446e00_NumFocus_LRG.png
+  logo: assets/img/numfocus.png
+  url: https://numfocus.org/
 - name: Ionworks
-  logo: https://cdn.prod.website-files.com/66c5a8c6efeae2125090a5a5/66cd41018a7c19753c2fee87_Original.png
-- name: The Faraday Institution
-  logo: https://cdn.prod.website-files.com/66c5a8c6efeae2125090a5a5/66e1c12124a15dd50b78891a_faraday-logo.png
+  logo: assets/img/ionworks.png
+  url: https://ionworks.com/

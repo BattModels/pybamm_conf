@@ -6,33 +6,22 @@ permalink: /venue/
 
 ## Venue
 
-### Plaisterers' Hall
+### Rogel Ballroom, Michigan Union
 
-Plaisterers' Hall is in the heart of the City of London at One London Wall.
+- Main conference dates: October 15-16
+- Address: Michigan Union, 530 S. State Street, Ann Arbor, Michigan
 
-- Main conference dates: February 5-6
-- Address: One London Wall, London, UK
-
-### Travel
-
-Nearest Tube stations:
-- St Paul's
-- Moorgate
-- Barbican
-
-Nearest train stations:
-- Moorgate
-- Farringdon
-- Liverpool Street
 
 ### Parking
 
-No on-site parking. Nearby options include:
+There is metered parking available in front of the Union on either side of State Street and behind the Union on Thompson Street.
+Nearby options include:
 
-- City of London parking: <https://www.cityoflondon.gov.uk/services/transport-and-streets/parking/Pages/car-parks.aspx>
-- NCP Aldersgate: <https://www.ncp.co.uk/find-a-car-park/car-parks/london-aldersgate/>
+- [Liberty Square Parking Structure](https://www.google.com/maps/place/Liberty+Square+Parking/@42.2809558,-83.7388466,17z/data=!4m6!3m5!1s0x883caf938d22c4cb:0x381d93022fbbf3e2!8m2!3d42.2800231!4d-83.7425856!16s%2Fg%2F11j57vq24x?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D), 509 E Washington St
+- [Maynard Parking Structure](https://www.google.com/maps/place/Maynard+Structure/@42.2799374,-83.7396017,17z/data=!4m6!3m5!1s0x883cae3faf6bb4c9:0x99ae01c549c6e13!8m2!3d42.2786475!4d-83.7420962!16s%2Fg%2F1tg4xj12?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D), 324 Maynard St
 
-### Accommodation
-
-- Citadines Barbican London: <https://www.discoverasr.com/en/citadines/united-kingdom/citadines-barbican-london>
-- Clayton Hotel London Wall: <https://www.claytonhotels.com/london-wall/>
+<!-- ### Accommodation -->
+<!---->
+<!-- A few  -->
+<!-- - Citadines Barbican London: <https://www.discoverasr.com/en/citadines/united-kingdom/citadines-barbican-london> -->
+<!-- - Clayton Hotel London Wall: <https://www.claytonhotels.com/london-wall/> -->
