@@ -10,6 +10,24 @@ A unique event for everyone from the curious to advanced battery model developer
 
 [Register now]({{ site.data.site.register_url }}){: .button }
 
+<section class="date-block" aria-label="Conference dates">
+  <h2 class="date-title">PyBaMM Conference 2025</h2>
+  <div class="header_dates-wrap date-row">
+    <div class="header_dates-item date-tile">
+      <div class="date-month">Feb</div>
+      <div class="header_dates-day"><div class="date-day">05</div></div>
+    </div>
+    <div class="header_dates-item date-tile">
+      <div class="date-month">Feb</div>
+      <div class="header_dates-day"><div class="date-day">06</div></div>
+    </div>
+    <div class="header_dates-item date-tile">
+      <div class="date-month">Feb</div>
+      <div class="header_dates-day"><div class="date-day">07</div></div>
+    </div>
+  </div>
+</section>
+
 <div class="hero-grid">
 {% for image in site.data.site.hero_images %}
   <img class="hero-image" src="{{ image }}" alt="PyBaMM conference" />
