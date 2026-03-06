@@ -1,12 +1,12 @@
 - name: MICDE
-  logo: assets/img/MICDE.svg
+  logo: /assets/img/MICDE.svg
   url: https://micde.umich.edu/
 - name: MIDAS
-  logo: assets/img/midas.png
+  logo: /assets/img/midas.png
   url: https://midas.umich.edu/
 - name: NumFOCUS
-  logo: assets/img/numfocus.png
+  logo: /assets/img/numfocus.png
   url: https://numfocus.org/
 - name: Ionworks
-  logo: assets/img/ionworks.png
+  logo: /assets/img/ionworks.png
   url: https://ionworks.com/

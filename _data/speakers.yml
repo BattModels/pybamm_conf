@@ -7,15 +7,15 @@
   group: organizer
   role: Professor, University of Michigan, Ann Arbor
   # bio: Models electrochemical and transport processes in batteries and supercapacitors.
-  image: assets/img/venkvis.png
+  image: /assets/img/venkvis.png
 #   image: https://cdn.prod.website-files.com/66c5a8c6efeae2125090a5a5/66cd3012bb7a533e73cf288e_JwDTpQmQ_400x400.jpg
 - name: Anoushka Bhutani
   group: organizer
   role: PhD candidate, University of Michigan, Ann Arbor
   # bio: Models electrochemical and transport processes in batteries and supercapacitors.
-  image: assets/img/abhutani.png
+  image: /assets/img/abhutani.png
 - name: Amal S Sebastian
   group: organizer
   role: PhD candidate, University of Michigan, Ann Arbor
   # bio: Models electrochemical and transport processes in batteries and supercapacitors.
-  image: assets/img/amal_edit.jpeg
+  image: /assets/img/amal_edit.jpeg

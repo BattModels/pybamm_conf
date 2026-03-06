@@ -40,7 +40,7 @@ A unique event for everyone from the curious to advanced battery model developer
 <!-- {% for speaker in site.data.speakers %} -->
 <!-- {% if speaker.group == "keynote" %} -->
 <!-- <div class="card speaker-card"> -->
-<!--   <img class="speaker-image" src="{{ speaker.image }}" alt="{{ speaker.name }}" /> -->
+<!--   <img class="speaker-image" src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}" /> -->
 <!--   <h3>{{ speaker.name }}</h3> -->
 <!--   <p><strong>{{ speaker.role }}</strong></p> -->
 <!--   <p>{{ speaker.bio }}</p> -->
@@ -55,7 +55,7 @@ A unique event for everyone from the curious to advanced battery model developer
 {% for speaker in site.data.speakers %}
 {% if speaker.group == "organizer" %}
 <div class="card speaker-card">
-  <img class="speaker-image" src="{{ speaker.image }}" alt="{{ speaker.name }}" />
+  <img class="speaker-image" src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}" />
   <h3>{{ speaker.name }}</h3>
   <p><strong>{{ speaker.role }}</strong></p>
   <p>{{ speaker.bio }}</p>
@@ -69,7 +69,7 @@ A unique event for everyone from the curious to advanced battery model developer
 <div class="logo-grid">
 {% for institution in site.data.institutions %}
   <a class="logo-card{% if institution.name == 'MIDAS' %} is-midas{% endif %}" href="{{ institution.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ institution.name }}">
-    <img class="institution-logo" src="{{ institution.logo }}" alt="{{ institution.name }} logo" />
+    <img class="institution-logo" src="{{ institution.logo | relative_url }}" alt="{{ institution.name }} logo" />
   </a>
 {% endfor %}
 </div>
