@@ -10,32 +10,29 @@ A unique event for everyone from the curious to advanced battery model developer
 
 <!-- [Register now]({{ site.data.site.register_url }}){: .button } -->
 
-<section class="date-block" aria-label="Conference dates">
+<section class="conference-overview date-block" aria-label="Conference overview">
   <h2 class="date-title">PyBaMM Conference 2026</h2>
-  <div class="header_dates-wrap date-row">
-    <div class="header_dates-item date-tile">
+  <div class="date-row">
+    <div class="date-pill">
       <div class="date-month">Oct</div>
-      <div class="header_dates-day"><div class="date-day">15</div></div>
+      <div class="date-day">15</div>
     </div>
-    <div class="header_dates-item date-tile">
+    <div class="date-pill">
       <div class="date-month">Oct</div>
-      <div class="header_dates-day"><div class="date-day">16</div></div>
+      <div class="date-day">16</div>
+    </div>
+  </div>
+  <div class="overview-grid">
+    <div class="overview-item">
+      <div class="overview-label">Venue</div>
+      <div class="overview-value">Rogel Ballroom, Michigan Union</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-label">Location</div>
+      <div class="overview-value">Ann Arbor, Michigan, USA</div>
     </div>
   </div>
 </section>
-
-<!-- <div class="hero-grid"> -->
-<!-- {% for image in site.data.site.hero_images %} -->
-<!--   <img class="hero-image" src="{{ image }}" alt="PyBaMM conference" /> -->
-<!-- {% endfor %} -->
-<!-- </div> -->
-
-## Conference Snapshot
-
-<div class="meta-grid">
-  <div class="card"><strong>Dates</strong><br />October 15-16, 2026</div>
-  <div class="card"><strong>Venue</strong><br />Rogel Ballroom, Michigan Union, Ann Arbor, Michigan, USA</div>
-</div>
 
 <!-- ## Keynote Speakers -->
 
