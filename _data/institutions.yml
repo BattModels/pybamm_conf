@@ -4,8 +4,8 @@
 - name: MIDAS
   logo: /assets/img/midas.png
   url: https://midas.umich.edu/
-- name: NumFOCUS
-  logo: /assets/img/numfocus.png
+- name: Faraday
+  logo: /assets/img/faraday.png
   url: https://numfocus.org/
 - name: Ionworks
   logo: /assets/img/ionworks.png
