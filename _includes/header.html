@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="{{ '/' | relative_url }}">
-      <img src="{{ site.data.site.logo_url }}" alt="PyBaMM logo" class="brand-logo" />
+      <img src="{{ site.data.site.logo_url | relative_url }}" alt="PyBaMM logo" class="brand-logo" />
     </a>
     <nav class="site-nav" aria-label="Main navigation">
       {% for item in site.data.site.nav %}
