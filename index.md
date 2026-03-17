@@ -49,6 +49,10 @@ A unique event for everyone from the curious to advanced battery model developer
 <!-- {% endfor %} -->
 <!-- </div> -->
 
+## Conference Themes
+
+{% include themes.html %}
+
 ## Organizers
 
 <div class="speaker-grid">
