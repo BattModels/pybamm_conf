@@ -1,0 +1,14 @@
+- title: Physics-based models including novel chemistries and degradation mechanisms
+  icon: /assets/img/icons/physics.svg
+
+- title: Numerical methods, solver improvements, differentiable programming and software advances
+  icon: /assets/img/icons/numerical.svg
+
+- title: Data-driven models, machine learning, state estimation and parameter estimation methods
+  icon: /assets/img/icons/data.svg
+
+- title: System-level models (such as pack models) and techno-economic analysis
+  icon: /assets/img/icons/system.svg
+
+- title: Agentic workflows and integration with other workflow automation tools
+  icon: /assets/img/icons/agentic.svg
