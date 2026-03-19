@@ -11,6 +11,21 @@ permalink: /venue/
 - Main conference dates: October 15-16
 - Address: Michigan Union, 530 S. State Street, Ann Arbor, Michigan
 
+<div class="venue-showcase">
+  <div class="venue-photo">
+    <img src="{{ '/assets/img/rogel-ballroom.jpg' | relative_url }}" alt="Rogel Ballroom at the Michigan Union">
+  </div>
+  <div class="venue-map">
+    <iframe
+      title="Map of Michigan Union, 530 S. State Street, Ann Arbor, Michigan"
+      src="https://www.google.com/maps?q=Michigan+Union,+530+S.+State+Street,+Ann+Arbor,+Michigan&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
 
 ### Parking
 
