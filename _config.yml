@@ -3,3 +3,4 @@ url: "https://battmodels.github.io"
 baseurl: "/pybamm_conf"
 markdown: kramdown
 plugins: []
+google_analytics_id: "G-53NZ72J044"

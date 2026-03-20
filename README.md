@@ -39,3 +39,16 @@ bundle config set --local path vendor/bundle
 bundle install
 bundle exec jekyll serve
 ```
+
+## Google Analytics
+
+This site supports Google Analytics 4 via a configurable tag in `_includes/head.html`.
+
+To enable it:
+
+1. Create a GA4 property and a web data stream in Google Analytics.
+2. Copy the Google tag / measurement ID (typically starts with `G-`).
+3. Set `google_analytics_id` in `_config.yml`.
+4. Rebuild and deploy the site.
+
+If `google_analytics_id` is blank, the analytics script is not included.
