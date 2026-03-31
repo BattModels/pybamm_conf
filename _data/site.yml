@@ -16,6 +16,8 @@ nav:
   #   url: /abstracts/
   - title: Venue
     url: /venue/
+  - title: Application
+    url: /submission/
   - title: Registration
     url: /registration/
   # - title: Training
