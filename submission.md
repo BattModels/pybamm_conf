@@ -38,7 +38,7 @@ permalink: /submission/
       <li>A brief description of the research to be presented</li>
       <li>All presentations must use or include PyBaMM in some way</li>
       <li>1 or 2 figures if you wish</li>
-      <li>Which theme you would like to be part of</li>
+      <li>Which theme you would like to be part of (Physics-based Models, Numerical Methods, Data-driven Methods, System-level Models or Agentic Workflows) </li>
       <li>Whether you are interested in an oral or poster presentation</li>
     </ul>
 
