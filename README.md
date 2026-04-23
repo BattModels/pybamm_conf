@@ -1,6 +1,4 @@
-# PyBaMM Conference Site (Jekyll)
-
-This project is now structured as a standard, content-first Jekyll site.
+# PyBaMM Conference Site 
 
 ## Structure
 
