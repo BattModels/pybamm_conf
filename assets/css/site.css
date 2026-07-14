@@ -479,6 +479,60 @@ ul { padding-left: 1.2rem; }
   text-decoration: underline;
 }
 
+.registration-pricing-frame {
+  display: inline-block;
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.7rem 1rem;
+  background: linear-gradient(135deg, rgba(53, 126, 182, 0.08) 0%, rgba(207, 217, 225, 0.18) 100%);
+  border: 2px solid var(--primary-soft-border);
+  border-left: 5px solid var(--primary);
+  border-radius: 12px;
+  box-shadow: 0 10px 22px rgba(53, 126, 182, 0.1);
+}
+
+.registration-pricing-table {
+  border-collapse: collapse;
+  margin: 0;
+  width: min(340px, 100%);
+}
+
+.registration-pricing-table__participant {
+  width: 195px;
+}
+
+.registration-pricing-table__price {
+  width: 145px;
+}
+
+.registration-pricing-table th,
+.registration-pricing-table td {
+  padding: 0.5rem 0;
+  text-align: left;
+}
+
+.registration-pricing-table th:nth-child(2),
+.registration-pricing-table td:nth-child(2) {
+  border-left: 2px solid #c4dcf0;
+  padding-left: 0.7rem;
+  text-align: left;
+}
+
+.registration-pricing-table thead th {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-size: 0.95rem;
+  color: #162134;
+  border-bottom: 1px solid var(--border);
+}
+
+.registration-pricing-table tbody td {
+  color: var(--muted);
+  border-bottom: 1px solid rgba(223, 230, 239, 0.7);
+}
+
+.registration-pricing-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
 .logo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));

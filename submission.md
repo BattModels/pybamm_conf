@@ -45,13 +45,3 @@ permalink: /submission/
     <p><em>Subject to demand, we will not be able to accept all requests for oral presentations, and so some may be invited to present a poster.</em></p>
   </div>
 </div>
-
-
-
-### Ticket Prices
-
- Audience  |   Price  |
- --------- | -------: |
- Industry  | $400.00  |
- Academia  | $300.00  |
- Student   | $100.00  |
