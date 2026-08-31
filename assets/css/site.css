@@ -220,14 +220,91 @@ ul { padding-left: 1.2rem; }
   margin-bottom: 1.25rem;
 }
 
-.schedule-document {
-  width: 100%;
-  min-height: 900px;
-  display: block;
+.schedule-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.schedule-day {
   border: 1px solid var(--border);
   border-radius: 18px;
   background: var(--surface);
   box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.schedule-day summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(90deg, var(--primary-strong), var(--primary));
+  color: #fff;
+}
+
+.schedule-day summary::-webkit-details-marker { display: none; }
+
+.schedule-day summary::after {
+  content: "+";
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.schedule-day[open] summary::after { content: "-"; }
+
+.schedule-day summary span {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.18rem;
+}
+
+.schedule-day summary strong { font-size: 0.95rem; }
+
+.schedule-day-content { padding: 0.35rem 1.25rem; }
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 145px minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.schedule-item:last-child { border-bottom: 0; }
+
+.schedule-item time {
+  color: var(--primary-strong);
+  font-weight: 700;
+  font-size: 0.98rem;
+}
+
+.schedule-item h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.12rem;
+}
+
+.schedule-item p { margin: 0; }
+
+.schedule-talks {
+  display: grid;
+  gap: 0.7rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0 0;
+}
+
+.schedule-talks li { color: var(--text); }
+
+.schedule-talks strong,
+.schedule-talks span { display: block; }
+
+.schedule-talks span {
+  color: var(--muted);
+  margin-top: 0.08rem;
 }
 
 .date-block {
@@ -628,5 +705,6 @@ ul { padding-left: 1.2rem; }
   .venue-showcase { grid-template-columns: 1fr; }
   .venue-photo img,
   .venue-map iframe { min-height: 340px; }
-  .schedule-document { min-height: 700px; }
+  .schedule-day summary { align-items: flex-start; }
+  .schedule-item { grid-template-columns: 1fr; gap: 0.32rem; }
 }
