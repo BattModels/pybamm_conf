@@ -216,6 +216,20 @@ ul { padding-left: 1.2rem; }
   color: #2e6f9f;
 }
 
+.schedule-intro {
+  margin-bottom: 1.25rem;
+}
+
+.schedule-document {
+  width: 100%;
+  min-height: 900px;
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
 .date-block {
   margin: 1.4rem 0 1.6rem;
   padding: 0;
@@ -614,4 +628,5 @@ ul { padding-left: 1.2rem; }
   .venue-showcase { grid-template-columns: 1fr; }
   .venue-photo img,
   .venue-map iframe { min-height: 340px; }
+  .schedule-document { min-height: 700px; }
 }
