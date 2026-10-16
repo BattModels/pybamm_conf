@@ -32,8 +32,8 @@ permalink: /schedule/
       <div class="schedule-item"><time>09:15-10:45</time><div><h2>Breakfast</h2></div></div>
       <div class="schedule-item"><time>10:00-10:30</time><div><h2>Keynote Talk</h2><p>Alexander Bills, Ionworks</p></div></div>
       <div class="schedule-item"><time>10:30-11:15</time><div><h2>Session 4: System Level Models</h2><ul class="schedule-talks"><li><strong>Onboard material-level diagnostics for tracking Si burn-out in Si-graphite batteries</strong><span>Zhiwen Wan, University of Michigan</span></li><li><strong>A Monte-Carlo Framework for Benchmarking Battery SoH Estimation Algorithms</strong><span>Elias Hempen, ISEA RWTH Aachen</span></li><li><strong>Integrating Physics-Based Battery Models with Gradient-Based Electric Aircraft Design</strong><span>Amal Sebastian, University of Michigan</span></li></ul></div></div>
-      <div class="schedule-item"><time>11:15-12:00</time><div><h2>Lunch</h2></div></div>
-      <div class="schedule-item"><time>12:00-13:15</time><div><h2>Invited Talk</h2><p>Jason Siegel, University of Michigan</p></div></div>
+      <div class="schedule-item"><time>11:15-12:45</time><div><h2>Lunch</h2></div></div>
+      <div class="schedule-item"><time>12:45-13:15</time><div><h2>Invited Talk</h2><p>Jason Siegel, University of Michigan</p></div></div>
       <div class="schedule-item"><time>13:15-14:00</time><div><h2>Session 5: Na-ion and Volume Expansion</h2><ul class="schedule-talks"><li><strong>Physics-Based Swelling Prediction for Consumer Electronics Batteries</strong><span>Thanh-Son Dao, Microsoft Corporation</span></li><li><strong>Temperature-Dependent Degradation Modeling of HC||NVPF Na-Ion Batteries</strong><span>Zhu Zhu, Purdue University</span></li><li><strong>Physics-Based Modeling of an NVP/Hard Carbon Sodium-Ion Cell in PyBaMM</strong><span>Shubham Khange, Aalto University</span></li></ul></div></div>
       <div class="schedule-item"><time>14:00-14:30</time><div><h2>Closing Talk</h2></div></div>
     </div>
